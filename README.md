@@ -5,9 +5,10 @@ This is a LISP port of the hltb tool (https://github.com/fenak/hltb).
 
 It was developed by a friend as a way to play with Go, and I did the same as a way to play with LISP. :)
 
-From the Original tool README:
+From the original tool README:
+```
 hltb is a simple tool written in Go for fetching data from http://howlongtobeat.com.
-
+```
 
 #### Usage
 
