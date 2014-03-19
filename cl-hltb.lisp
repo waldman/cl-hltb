@@ -24,9 +24,7 @@
                (completionist (xpath:string-value (xpath:evaluate "//*[@class=\"gamelist_tidbit time_60\"]" document)))
                (combined (xpath:string-value (xpath:evaluate "//*[@class=\"gamelist_tidbit time_100\"]" document))))
           (format t "Game Name: ~A~%Main Story: ~A~%Main + Extra: ~A~%Completionist: ~A~%Combined: ~A~%"
-                  gamename mainstory mainplusextra completionist combined))))
-    0)
-  1)
+                  gamename mainstory mainplusextra completionist combined))))))
 
 ;;; Thou shall compile!
 (save-lisp-and-die "cl-hltb" :toplevel #'main :executable t)
